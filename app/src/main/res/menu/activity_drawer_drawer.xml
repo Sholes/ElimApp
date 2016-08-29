@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@drawable/devotion"
+            android:title="Devotion" />
+        <item android:id="@+id/nav_birthdays" android:icon="@drawable/birthday"
+            android:title="Birthdays" />
+        <item android:id="@+id/nav_anniversaries" android:icon="@drawable/anni"
+            android:title="Wedding Anniversaries" />
+        <item android:id="@+id/nav_member" android:icon="@drawable/info"
+            android:title="MemberInformation" />
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Logout" />
+            <item android:id="@+id/nav_forum" android:icon="@drawable/info"
+                android:title="MemberInformation" />
+        </menu>
+    </item>
+
+</menu>

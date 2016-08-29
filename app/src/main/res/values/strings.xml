@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ElimMethodistChurch</string>
+    <string name="title_activity_splash">ElimChurch</string>
+    <string name="title_activity_login">LogIn</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Name</string>
+    <string name="prompt_password">Password (as provided)</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="action_sign_in_short">Log In</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_drawer">drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="parse_app_id">YDwQVycjQOAIfQHErUGSyQkAj2ilFT3zs0TEPrdX</string>
+    <string name="parse_client_key">KaFmGh8Uxlte2tVw0eAYnHvrAXF0GW2pZyE3P5or</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="verse1">Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they will be comforted. Blessed are the meek, for they will inherit the earth. Blessed are those who hunger and thirst for righteousness, for they will be filled-Matthew 5</string>
+    <string name="title_activity_birthday_info">Birthday_info</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+</resources>

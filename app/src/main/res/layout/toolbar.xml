@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="?colorPrimary"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:dividerPadding="8dp"
+        android:orientation="horizontal"
+        android:showDividers="end"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/toolbar_cancel"
+            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Cancel"
+            android:textAllCaps="true"
+            android:textColor="#f57f17"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/toolbar_send"
+            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Send"
+            android:textAllCaps="true"
+            android:textColor="#0f0f0f"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
